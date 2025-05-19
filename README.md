@@ -25,3 +25,12 @@ npx playwright test amazon-playwright.spec.js
 ```bash
 node amazon-puppeteer.js
 ```
+### 1 Scope of the Test Flow
+
+
+
+1. Navigate to page
+2. Navigate through a couple of pages
+3. Assert the presence of a specific test on the given page
+
+Feel free to extend with 1–2 additional assertions.
