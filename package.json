@@ -1,0 +1,13 @@
+{
+  "name": "manual-testing-assignment",
+  "version": "1.0.0",
+  "description": "E2E UI Testing using Playwright and Puppeteer",
+  "scripts": {
+    "test:playwright": "npx playwright test amazon-playwright.spec.js",
+    "test:puppeteer": "node amazon-puppeteer.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "@playwright/test": "^1.43.1"
+  }
+}
